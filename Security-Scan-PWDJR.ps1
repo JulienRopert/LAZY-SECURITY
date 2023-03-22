@@ -112,6 +112,13 @@ function submenuOne
    bash -c apt update
    bash -c apt upgrade
    bash -c pip install -r requirements.txt
+   bash -c apt install OPENVAS
+   bash -c gvm-setup 
+   bash -c gvm-feed-update
+   bash -c gvm-check-setup
+   bash -c gvm-start
+   sudo -E -u _gvm -g _gvm gvmd --user=admin --new-password=admin
+   }
    write-host "Les dépendances ont été installées."
 
 
@@ -165,6 +172,10 @@ Write-Host "Scan Nikto terminé, les résultats sont enregistrés dans le fichie
     }
     ElseIf($theChosenIndex -eq 2)
     {
+    Write-Host "Les identifiants par défaut d'openVAS sont admin, admin"
+        pause
+    bash -c gvm-start
+    bash -c gvm-feed-update
     bash -c GVM/gvm-scan.sh > Scan_OPENVAS_ID.txt
     Write-Host "le scan est en court, vous pouvez consulter l'avancer sur la console web https://127.0.0.1:9392/login"
     Write-host "Vous pouvez exporter le resultat en pdf en executant ./pdf_openvas.sh, vous aurez besoin de l'id generer dans le document Scan_OPENVAS_ID.txt"
