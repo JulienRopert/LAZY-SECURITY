@@ -108,11 +108,11 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 
 ## Sources :
 
-https://github.com/Yutixcode/Dolkings.
-https://github.com/Encryptor-Sec/Web-Scraper.
-https://github.com/greenbone/gvm-tools.
-https://nmap.org/book/man-briefoptions.html.
-https://www.mankier.com/1/nikto.
+- https://github.com/Yutixcode/Dolkings
+- https://github.com/Encryptor-Sec/Web-Scraper
+- https://github.com/greenbone/gvm-tools
+- https://nmap.org/book/man-briefoptions.html
+- https://www.mankier.com/1/nikto
 
 
 
