@@ -33,7 +33,7 @@ Il n'est pas compatible avec un environnement Windows.
                  **                **                               **                **            
                 **        OO        **                             **        OO        **           
                ************************                           ************************          
-              ************************** 
+              
 
   OPENVAS est actuellement defectueux sur Parrot OS   
 
