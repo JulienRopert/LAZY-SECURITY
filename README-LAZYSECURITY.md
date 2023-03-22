@@ -15,6 +15,8 @@
 
 Ce Projet est composé de différents outils open source, qui a pour but d'automatiser les détections de vulnérabilités, mais également de réaliser de la recherche d'informations.
 
+![Alt Text](Photo/Conditions.png)
+
 Il est recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
 Il n'est pas compatible avec un environnement Windows.
 
@@ -36,7 +38,7 @@ Récupération des Fichiers d'exécution : git clone https://github.com/JulienRo
 
 Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 
-![Alt Text](Photo/Main_menu.svg)
+![Alt Text](Photo/Main_menu.png)
 
 ## Fonctionnalités
 
@@ -62,7 +64,7 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 
         Fonctionnalité qui permet de scanner les vulnérabilités d'un serveur web, exécute à la suite un scan NMAP et NIKTO, avec une boite de dialogue interactif. Génère un résultat sous forme TXT dans le dossier Résultats sous la forme suivante : (nmap $target.txt) et (nikto $target.txt).
 
-    ![alt text](Photo/ip_nmap_nikto.svg)
+    ![alt text](Photo/nikto_nmap.png)
         
     - Interne/OPENVAS
 
@@ -76,7 +78,7 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 
         Cet outil permet d'effectuer des recherches précises avec la méthode "Google Dorks" 
 
-    ![alt texte](Photo/Dorks.svg)
+    ![alt texte](Photo/Dorks.png)
 
         Dork : la requête de recherche que vous souhaitez utiliser
         Page : le nombre de sites Web à afficher
@@ -95,8 +97,8 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
         Choisissez une option dans le menu.
         Suivez les instructions à l’écran.
 
-    ![alt text](Photo/Scrap_menu.svg)
-    ![alt text](Photo/Webscrap.svg)
+    ![alt text](Photo/scrap.png)
+    ![alt text](Photo/menu_scrap.png)
        
         Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici : https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/
    
