@@ -91,7 +91,7 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 
         L’outil est capable d’effectuer diverses opérations comme trouver des sous-domaines, la technologie Web, panneau d’administration, répertoire, entête HTTP, informations WHOIS, balayage de port, balayage TCP/UDP, recherche inverse IP, recherche de sous-réseau, géolocalisation, recherche DNS, tracé, détection de pare-feu, analyse de vulnérabilité et transfert de zone.
 
-        Utilisation :
+       - Utilisation 
 
         Saisissez l’adresse cible (par exemple, adresse.com ou IP).
         Choisissez une option dans le menu.
@@ -100,7 +100,8 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
     ![alt text](Photo/scrap.png)
     ![alt text](Photo/menu_scrap.png)
        
-    - Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici :        https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/
+  
+ - Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici :                     https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/
    
 
 ## Sources :
