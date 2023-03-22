@@ -32,11 +32,11 @@ Il n'est pas compatible avec un environnement Windows.
 
 Il est fortement recommandé d'effectuer le "git clone" dans un dossier isolé.
 
-Récupération des Fichiers d'exécution : git clone https://github.com/JulienRopert/PENTEST-TOOL-BUNDLE.git
+Récupération des Fichiers d'exécution : git clone https://github.com/JulienRopert/LAZY-SECURITY.git
 
 Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 
-![alt text](https://prnt.sc/vHGNuOV9vLru)
+![alt text](photo/Screenshot_5.jpg)
 
 
 ## Fonctionnalités
