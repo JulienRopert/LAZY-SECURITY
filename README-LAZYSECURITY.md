@@ -100,16 +100,16 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
     ![alt text](Photo/scrap.png)
     ![alt text](Photo/menu_scrap.png)
        
-        Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici : https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/
+    - Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici :        https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/
    
 
 ## Sources :
 
-https://github.com/Yutixcode/Dolkings
-https://github.com/Encryptor-Sec/Web-Scraper
-https://github.com/greenbone/gvm-tools
-https://nmap.org/book/man-briefoptions.html
-https://www.mankier.com/1/nikto
+https://github.com/Yutixcode/Dolkings.
+https://github.com/Encryptor-Sec/Web-Scraper.
+https://github.com/greenbone/gvm-tools.
+https://nmap.org/book/man-briefoptions.html.
+https://www.mankier.com/1/nikto.
 
 
 
