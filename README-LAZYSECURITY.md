@@ -122,7 +122,6 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 **Dernière version :** 5.1
 
 ## Auteurs
-Listez le(s) auteur(s) du projet ici !
 * **Julien Ropert** _alias_ [@JulienRopert](https://github.com/JulienRopert)
 
 
