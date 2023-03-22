@@ -111,6 +111,9 @@ function submenuOne
 
    bash -c pip install -r requirements.txt
    write-host "Les dépendances ont été installées."  
+   pause
+   ./app
+   write-host "Les applications ont été installées."  
    }
          pause
       mainMenu  
