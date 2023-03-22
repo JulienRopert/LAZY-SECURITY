@@ -111,7 +111,9 @@ function submenuOne
    bash -c sudo su
    bash -c apt update
    bash -c apt upgrade
+   pause
    bash -c pip install -r requirements.txt
+   pause
    bash -c apt install OPENVAS
    bash -c gvm-setup 
    bash -c gvm-feed-update
