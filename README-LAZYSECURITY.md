@@ -77,15 +77,15 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
     - Google Dorks
 
         Cet outil permet d'effectuer des recherches précises avec la méthode "Google Dorks" 
-
-    ![alt texte](Photo/Dorks.png)
-
         Dork : la requête de recherche que vous souhaitez utiliser
         Page : le nombre de sites Web à afficher
         Time : intervalle entre les demandes
 
         Ci-joint une documentation sur les recherches de type DORK : https://www.funinformatique.com/google-dorks-hackez-requete-google/
 
+
+    ![alt texte](Photo/Dorks.png).
+    
 
     - WebScrapping
 
@@ -96,13 +96,15 @@ Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
         Saisissez l’adresse cible (par exemple, adresse.com ou IP).
         Choisissez une option dans le menu.
         Suivez les instructions à l’écran.
+        
+          
+        Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici :                                  https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/
+   
 
 ![alt text](Photo/scrap.png).
 ![alt text](Photo/menu_scrap.png).
        
-  
-    - Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici :                                  https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/.
-   
+
 
 ## Sources :
 
