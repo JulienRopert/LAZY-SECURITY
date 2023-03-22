@@ -36,8 +36,7 @@ Récupération des Fichiers d'exécution : git clone https://github.com/JulienRo
 
 Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
 
-![alt text](photo/Screenshot_5.jpg)
-
+![Alt Text](photo/Screenshot_5.jpg)
 
 ## Fonctionnalités
 
