@@ -212,7 +212,7 @@ if($theChosenIndex -eq 1)
 }
     ElseIf($theChosenIndex -eq 2)
       { 
-      python3 Web-Scraper/web_scraper.py 
+      python3 web_scraper.py 
       pause
       mainMenu
       
