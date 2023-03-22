@@ -19,6 +19,8 @@ Ce Projet est composé de différents outils open source, qui a pour but d'autom
 
 Il est recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
 Il n'est pas compatible avec un environnement Windows.
+ !!!!!!!!!!!!!!!!!OPENVAS est actuellement defectueux sur Parrot OS!!!!!!!!!!!!!!!!!! 
+ - Pour corriger le probleme il faut copier les répertoirs présent dans le dossier /lib64/libopenvas* Dans le dossier /lib/
 
 ### Prérequis
 
