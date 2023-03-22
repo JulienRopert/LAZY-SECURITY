@@ -127,3 +127,5 @@ pythonaes
 PyTrie
 pytz
 PyV8
+bs4
+google
