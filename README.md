@@ -74,7 +74,11 @@ cd LAZY-SECURITY
 <br/><br/>
                                         
                                        
-Installation des dépendances
+- Installation des dépendances
+ 
+ <span style="color:red">L'opération prendra du temps !</span>
+
+  
 ```bash
 sudo chmod 777 OPENVAS
 ```
@@ -87,7 +91,6 @@ sudo chmod 777 OPENVAS
 
 <br/><br/>
 
-L'opération prendra du temps !
 
 ```bash
 sudo pip install -r requirements.txt
