@@ -111,9 +111,9 @@ sudo pip install -r requirements.txt
         et 30000€ d’amende. Celle-ci peut être portée à 3 ans d’emprisonnement et 45000€ d’amende lorsqu’il en résulte "
         «soit la suppression, soit la modification de données contenues dans le système, soit une altération du fonctionnement de ce système».
     
-    - Installation des Dépendances
+    - Lecture des Dépendances
 
-        Permets d'installer toutes les dépendances nécessaires au bon fonctionnement du script. (l'installation peut prendre un certain temps...)
+        Permets d'afficher toutes les dépendances nécessaires au bon fonctionnement du script. 
         
 
 - Détecteur de vulnérabilités
