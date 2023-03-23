@@ -76,8 +76,11 @@ cd LAZY-SECURITY
                                        
 - Installation des dépendances
  
- <span style="color:red">L'opération prendra du temps !</span>
+ <br/><br/>     
+ 
+ ![Alt Text](Photo/------------------l'opération-va-prendre-du-temps--------------------.svg)
 
+<br/><br/>     
   
 ```bash
 sudo chmod 777 OPENVAS
