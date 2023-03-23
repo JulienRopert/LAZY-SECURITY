@@ -18,6 +18,8 @@ sudo gvm-setup
 # Mettre à jour les feeds
 sudo gvm-feed-update
 
+sudo mv /lib
+
 # Vérifier la configuration de l'installation
 sudo gvm-check-setup
 
