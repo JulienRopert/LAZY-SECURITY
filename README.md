@@ -64,6 +64,8 @@ sudo apt update
 sudo apt upgrade
 ```     
 
+<br/><br/>
+
 Récupération des Fichiers d'exécution : 
 ```bash
 git clone https://github.com/JulienRopert/LAZY-SECURITY
@@ -72,6 +74,8 @@ git clone https://github.com/JulienRopert/LAZY-SECURITY
 ```bash
 cd LAZY-SECURITY
 ```
+
+<br/><br/>
                                         
                                        
 Installation des dépendances
@@ -79,21 +83,27 @@ Installation des dépendances
 sudo chmod 777 OPENVAS
 ```
 
+<br/><br/>
+
 ```bash
 ./OPENVAS
 ```
 
+<br/><br/>
 
 ```bash
 sudo pip install -r requirements.txt
 ```
+
+<br/><br/>
+
 Si lors de l'execution du fichier requirements.txt le message suivant apparait : 
 "INFO: pip is looking at multiple versions of pynacl to determine which version is compatible with other requirements. This could take a while.
 INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. If you want to abort this run, you can press Ctrl + C to do so. To improve how pip performs, tell us what happened here: https://pip.pypa.io/surveys/backtracking"
 
 N'hesitez pas effectuer un Ctrl+c et relancer la commande.
 
-
+<br/><br/>
 
 Exécution du script (dans le dossier courant) : 
 
