@@ -61,7 +61,7 @@ function mainMenu
 function submenuOne
 {
     [array]$firstSubmenu = "Afficher les conditions d'utilisation",`
-                           "Installation des Dépendances",`
+                           "affichage des Dépendances",`
                            "Revenir au menu principal"
     [string]$theMenuTitle = "Readme"
     Do
@@ -108,17 +108,9 @@ function submenuOne
     }
     ElseIf($theChosenIndex -eq 2)
     {
-    sudo 
-    bash -c sudo apt update
-    bash -c sudp apt upgrade
-   bash -c ./OPENVAS
-   write-host "Openvas a bien été installé"
-   pause
-   bash -c pip3 install -r requirements.txt
-   write-host "Les dépendances ont été installées."  
-   pause 
+bash -c nano requirements.txt
    }
-         pause
+      
       mainMenu  
 
     }
