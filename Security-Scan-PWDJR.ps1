@@ -109,11 +109,9 @@ function submenuOne
     ElseIf($theChosenIndex -eq 2)
     {
 
-   bash -c pip install -r requirements.txt
+   bash -c pip3 install -r requirements.txt
    write-host "Les dépendances ont été installées."  
-   pause
-   ./app
-   write-host "Les applications ont été installées."  
+   pause 
    }
          pause
       mainMenu  
