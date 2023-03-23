@@ -192,13 +192,13 @@ while($theChosenIndex -lt 1 -or $theChosenIndex -gt $thridSubmenu.count -or !$th
 cls
 if($theChosenIndex -eq 1)
 {
- python3 Dolkings/dolkings.py 
+ python3 web_scraper.py
  pause
       mainMenu
 }
     ElseIf($theChosenIndex -eq 2)
       { 
-      python3 web_scraper.py 
+      python3 Dolkings/dolkings.py 
       pause
       mainMenu
       
