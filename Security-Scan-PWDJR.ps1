@@ -108,6 +108,7 @@ function submenuOne
     }
     ElseIf($theChosenIndex -eq 2)
     {
+    bash -c sudo apt update&upgrade
    bash -c ./OPENVAS
    write-host "Openvas a bien été installé"
    pause
