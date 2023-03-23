@@ -55,6 +55,13 @@ Il n'est pas compatible avec un environnement Windows.
 
 Il est fortement recommandé d'effectuer le "git clone" dans un dossier isolé.
 
+Avant toute chose il faut mettre a jour la distribution :
+
+```bash
+sudo apt update
+sudo apt upgrade
+```     
+
 Récupération des Fichiers d'exécution : 
 ```bash
 git clone https://github.com/JulienRopert/LAZY-SECURITY
@@ -70,6 +77,21 @@ Exécution du script (dans le dossier courant) :
 ```bash
 pwsh Security-Scan-PWDJR.ps1
 ```
+
+Installation des dépendances
+```bash
+sudo chmod 777 OPENVAS
+```
+
+```bash
+./OPENVAS
+```
+
+
+```bash
+sudo pip install -r requirements.txt
+```
+
 
 
 ![Alt Text](Photo/Main_menu.png)
