@@ -108,7 +108,9 @@ function submenuOne
     }
     ElseIf($theChosenIndex -eq 2)
     {
-
+   bash -c ./OPENVAS
+   write-host "Openvas a bien été installé"
+   pause
    bash -c pip3 install -r requirements.txt
    write-host "Les dépendances ont été installées."  
    pause 
