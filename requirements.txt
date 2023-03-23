@@ -129,3 +129,4 @@ pytz
 PyV8
 bs4
 google
+googlesearch-python
