@@ -1,10 +1,11 @@
 # README LAZY-SECURITY
-![Alt Text](Photo/lazy-security.svg) <br/><br/> ![Alt Text](Photo/lazy-work.svg)
-
-
+![Alt Text](Photo/lazy-security.svg)
+<br/><br/> 
+![Alt Text](Photo/lazy-work.svg)
 <br/><br/>
-
-![Alt Text](Photo/open-source.svg)  <br/><br/>    ![Alt Text](Photo/powered-by-julien-ropert.svg)
+![Alt Text](Photo/open-source.svg) 
+<br/><br/>    
+![Alt Text](Photo/powered-by-julien-ropert.svg)
 
 
 
