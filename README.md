@@ -55,9 +55,22 @@ Il n'est pas compatible avec un environnement Windows.
 
 Il est fortement recommandé d'effectuer le "git clone" dans un dossier isolé.
 
-Récupération des Fichiers d'exécution : git clone https://github.com/JulienRopert/LAZY-SECURITY
+Récupération des Fichiers d'exécution : 
+```bash
+git clone https://github.com/JulienRopert/LAZY-SECURITY
+```     
 
-Exécution du script (dans le dossier courant) : pwsh Security-Scan-PWDJR.ps1
+```bash
+cd LAZY-SECURITY
+```
+                                        
+                                        
+Exécution du script (dans le dossier courant) : 
+
+```bash
+pwsh Security-Scan-PWDJR.ps1
+```
+
 
 ![Alt Text](Photo/Main_menu.png)
 
