@@ -182,7 +182,7 @@ pwsh Security-Scan-PWDJR.ps1
 **Dernière version :** 5.1
 
 ## Auteurs
-* **Julien Ropert** _alias_ [@JulienRopert](https://github.com/JulienRopert)
+[@JulienRopert](https://github.com/JulienRopert)
 
 
 
