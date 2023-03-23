@@ -87,6 +87,8 @@ sudo chmod 777 OPENVAS
 
 <br/><br/>
 
+L'opération prendra du temps !
+
 ```bash
 sudo pip install -r requirements.txt
 ```
