@@ -81,9 +81,6 @@ olefile
 packaging
 paramiko
 passlib
-Paste
-PasteDeploy
-PasteScript
 pathlib2
 peepdf
 pefile
