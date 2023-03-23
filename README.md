@@ -73,13 +73,7 @@ git clone https://github.com/JulienRopert/LAZY-SECURITY
 cd LAZY-SECURITY
 ```
                                         
-                                        
-Exécution du script (dans le dossier courant) : 
-
-```bash
-pwsh Security-Scan-PWDJR.ps1
-```
-
+                                       
 Installation des dépendances
 ```bash
 sudo chmod 777 OPENVAS
@@ -92,6 +86,14 @@ sudo chmod 777 OPENVAS
 
 ```bash
 sudo pip install -r requirements.txt
+```
+
+
+
+Exécution du script (dans le dossier courant) : 
+
+```bash
+pwsh Security-Scan-PWDJR.ps1
 ```
 
 
