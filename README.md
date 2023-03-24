@@ -2,8 +2,8 @@
 
 <div style="display:flex; justify-content:space-between">
     <img src="Photo/lazy-security.svg" alt="Alt Text">
-    <img src="Photo/lazy-work.svg" alt="Alt Text">
     <img src="Photo/open-source.svg" alt="Alt Text">
+    <img src="Photo/lazy-work.svg" alt="Alt Text">
 </div>
 
 
