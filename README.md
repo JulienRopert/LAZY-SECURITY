@@ -83,21 +83,15 @@ cd LAZY-SECURITY
 <br/><br/>     
   
 ```bash
-sudo chmod 777 OPENVAS
+sudo chmod 777 requirements.sh
 ```
 
 <br/><br/>
 
 ```bash
-./OPENVAS
+./requirements.sh
 ```
 
-<br/><br/>
-
-
-```bash
-sudo pip install -r requirements.txt
-```
 
 <br/><br/>
 
