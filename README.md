@@ -1,8 +1,8 @@
 # README LAZY-SECURITY
 
-![Alt Text](Photo/lazy-security.svg){: style="margin-right:20px;"}
-![Alt Text](Photo/open-source.svg){: style="margin-right:20px; margin-left:20px;"}
-![Alt Text](Photo/lazy-work.svg){: style="margin-left:20px;"}
+![Alt Text](Photo/lazy-security.svg)
+![Alt Text](Photo/open-source.svg)
+![Alt Text](Photo/lazy-work.svg)
 
 
 
