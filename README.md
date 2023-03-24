@@ -126,8 +126,10 @@ cd resultats
     
     - Lecture des Dépendances
 
-        Permets d'afficher toutes les dépendances nécessaires au bon fonctionnement du script. 
-        
+ Permets d'afficher toutes les dépendances nécessaires au bon fonctionnement du script. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------        
 
 - Détecteur de vulnérabilités
     
@@ -144,7 +146,7 @@ cd resultats
         Le scan prend un certain temps, il est conseillé de consulter l'avancée de celui-ci via l'interface web avant de générer un résultat en PDF.
 
 -  OSINT
-    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------    
     - Google Dorks
 
         Cet outil permet d'effectuer des recherches précises avec la méthode "Google Dorks" 
@@ -156,6 +158,10 @@ cd resultats
         
         <br/><br/>  
         
+![alt texte](Photo/dork.png).
+
+<br/><br/> 
+
 - Recherche de fichiers spécifiques sur un site Web :
 
 ```bash
@@ -205,8 +211,8 @@ Cela retournera toutes les pages sur le site example.com qui ont "admin" dans l'
 
 <br/><br/>  
 
-![alt texte](Photo/dork.png).
-    
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
 - WebScrapping
 
@@ -224,7 +230,7 @@ L’outil est capable d’effectuer diverses opérations comme trouver des sous-
 ![alt text](Photo/menu_scrap.png).
        
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Sources :
 
 - https://github.com/Encryptor-Sec/Web-Scraper
