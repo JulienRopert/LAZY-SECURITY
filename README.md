@@ -102,7 +102,12 @@ Exécution du script (dans le dossier courant) :
 pwsh Security-Scan-PWDJR.ps1
 ```
 
+Le résultat de la commande sera sous forme txt dans le dossier resultats :
 
+
+```bash
+cd resultats
+```
 
 ![Alt Text](Photo/Main_menu.png)
 
