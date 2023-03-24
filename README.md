@@ -163,8 +163,6 @@ pwsh Security-Scan-PWDJR.ps1
         Choisissez une option dans le menu.
         Suivez les instructions à l’écran.
         
-          
-        Pour plus d'efficacité, vous pouvez récupérer les adresses IP des serveurs WEB ici :                                  https://www.nslookup.io/domains/https%3A%2F%2Fwww.supdevinci.fr%2F/webservers/
    
 
 ![alt text](Photo/scrap.png).
