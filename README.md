@@ -150,7 +150,7 @@ pwsh Security-Scan-PWDJR.ps1
         Ci-joint une documentation sur les recherches de type DORK : https://www.funinformatique.com/google-dorks-hackez-requete-google/
 
 
-    ![alt texte](Photo/Dorks.png).
+    ![alt texte](Photo/dork.png).
     
 
     - WebScrapping
