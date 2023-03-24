@@ -3,10 +3,10 @@
 ![Alt Text](Photo/lazy-security.svg)
 <br/><br/>    
 ![Alt Text](Photo/open-source.svg)
-<br/><br/>
+<br/><br/>    
 ![Alt Text](Photo/lazy-work.svg)
-<br/><br/>
-
+<br/><br/>    
+![Alt Text](Photo/powered-by-julien-ropert.svg)
 
 
 
