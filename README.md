@@ -23,22 +23,7 @@ Vous trouverez le code décrit précisement directement dans le code source.
 
 Il est FORTEMENT recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
 Il n'est pas compatible avec un environnement Windows.
-<br/><br/>   
-
-
-                          **                                                 **                     
-                         ****                                               ****                    
-                        ******                                             ******                   
-                       ********                                           ********                  
-                      *** || ***                                         *** || ***                 
-                     ***  ||  ***                                       ***  ||  ***                
-                    ***   ||   ***                                     ***   ||   ***               
-                   ***    ||    ***                                   ***    ||    ***              
-                  ***     ||     ***                                 ***     ||     ***             
-                 **                **                               **                **            
-                **        OO        **                             **        OO        **           
-               ************************                           ************************          
-         
+             
 <br/><br/>            
               
 
