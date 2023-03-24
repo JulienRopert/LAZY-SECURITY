@@ -147,13 +147,13 @@ $optionsnikto = Read-host
 
 #Execution de NMAP et des options s'il y en a
 Write-Host "Exécution du scan NMAP en cours..."
-start-process nmap "$target $options -oN nmap_$target.txt" -NoNewWindow -PassThru -wait
-Write-Host "Scan NMAP terminé, les résultats sont enregistrés dans le fichier 'nmap_$target.txt'"
+start-process nmap "$target $options -oN resultats/nmap_$target.txt" -NoNewWindow -PassThru -wait
+Write-Host "Scan NMAP terminé, les résultats sont enregistrés dans le fichier 'resultats/nmap_$target.txt'"
 
 #Execution de NIKTO et des options s'il y en a
 Write-Host "Exécution du scan Nikto en cours..."
-Start-process nikto "-h $target $optionsnikto -o nikto_$target.txt" -NoNewWindow -PassThru -wait
-Write-Host "Scan Nikto terminé, les résultats sont enregistrés dans le fichier 'nikto_$target.txt'"
+Start-process nikto "-h $target $optionsnikto -o resultats/nikto_$target.txt" -NoNewWindow -PassThru -wait
+Write-Host "Scan Nikto terminé, les résultats sont enregistrés dans le fichier 'resultats/nikto_$target.txt'"
       pause
       mainMenu  
 
