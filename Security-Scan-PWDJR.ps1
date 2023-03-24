@@ -108,7 +108,7 @@ function submenuOne
     }
     ElseIf($theChosenIndex -eq 2)
     {
-bash -c nano requirements.txt
+bash -c nano requirements.sh
    }
       
       mainMenu  
