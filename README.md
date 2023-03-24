@@ -1,6 +1,10 @@
 # README LAZY-SECURITY
-![Alt Text](Photo/lazy-security.svg)&nbsp;![Alt Text](Photo/lazy-work.svg) &nbsp; ![Alt Text](Photo/open-source.svg)
 
+<div style="display:flex; justify-content:space-between">
+    <img src="Photo/lazy-security.svg" alt="Alt Text">
+    <img src="Photo/lazy-work.svg" alt="Alt Text">
+    <img src="Photo/open-source.svg" alt="Alt Text">
+</div>
 
 
 <br/><br/>
