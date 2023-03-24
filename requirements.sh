@@ -34,8 +34,8 @@ sudo mv /lib64/libopenvas_nasl.so /lib
 sudo mv /lib64/libopenvas_nasl.so.21 /lib
 sudo mv /lib64/libopenvas_misc.so.21.4.4 /lib
 sudo mv /lib64/libopenvas_nasl.so.21.4.4 /lib
-sudo chmod 777 GVM/gvm-scan.sh
-sudo chmod 777 GVM/Ovas.SH
+sudo chmod 777 gvm-scan.sh
+sudo chmod 777 Ovas.SH
 sudo chmod 777 /usr/lib/python3/dist-packages/gvm
 sudo chmod 777 /usr/lib/python3/dist-packages/gvmtools
 sudo chmod 777 /var/run/gvmd/gvmd.sock
