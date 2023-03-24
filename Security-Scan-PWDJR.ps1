@@ -163,8 +163,7 @@ Write-Host "Scan Nikto terminé, les résultats sont enregistrés dans le fichie
     Write-Host "Les identifiants par défaut d'openVAS sont admin, admin"
         pause
     bash -c gvm-start
-    bash -c gvm-feed-update
-    bash -c GVM/gvm-scan.sh > Scan_OPENVAS_ID.txt
+    bash -c GVM/gvm-scan.sh > resultats/Scan_OPENVAS_ID.txt
     Write-Host "le scan est en court, vous pouvez consulter l'avancer sur la console web https://127.0.0.1:9392/login"
     Write-host "Vous pouvez exporter le resultat en pdf en executant ./pdf_openvas.sh, vous aurez besoin de l'id generer dans le document Scan_OPENVAS_ID.txt"
     pause
