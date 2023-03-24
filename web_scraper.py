@@ -1,17 +1,12 @@
 #!/usr/bin/python
 
-# importing required modules
-
 import socket
 import os
 import requests
 from urllib.error import URLError, HTTPError
 from urllib.request import Request, urlopen
 
-# Banner for Web Scraper
-
 logo = '''
-
  ######################################################################### 
  #   __          __  _        _____                                      #
  #   \ \        / / | |      / ____|                                     #
@@ -32,6 +27,7 @@ logo = '''
                   #   Owner   : Sathyaprakash Sahoo      #   
                   ########################################                          
 '''
+
 menu = '''
   [+] \033[4mChoose An Option\033[0m
   _________________________________________________________
@@ -46,43 +42,40 @@ menu = '''
  | [9] TCP Scan               |   [19] Vulnerability Scan  |
  | [10] UDP Scan              |   [20] Zone Transfer       |
  +---------------------------------------------------------+
- | [N] New Target        [X] Unistall        [E] Exit      |
+ | [N] New Target        [X] Uninstall        [E] Exit      |
  +---------------------------------------------------------+
 '''
-print(logo)
 
 def ping():
-	global domain
-	global IP
-	domain = input("Enter Target Address [Example.com / IP]: ")
-	try:	
-		IP = socket.gethostbyname(domain)
-	except socket.gaierror or requests.ConnectionError:
-		print("\n\033[0;31m[*] Invalid Target Address\033[0m\n")
-		ping()
-	else:	
-		response = os.system("ping -c 1 " + domain)
-		if response == 0:
-			print("\n\033[0;31m[-] Target is Live\033[0m")
-			print(menu)
-		else:
-			print("\n\033[0;31m[!] Oops!! Target is not Live\033[0m\n")
-			ping()
-
-	# Creating global function for Domain ping and Assesment
+    global domain
+    global IP
+    domain = input("Enter Target Address [Example.com / IP]: ")
+    try:
+        IP = socket.gethostbyname(domain)
+    except (socket.gaierror, requests.ConnectionError):
+        print("\n\033[0;31m[*] Invalid Target Address\033[0m\n")
+        ping()
+    else:
+        response = os.system("ping -c 1 " + domain)
+        if response == 0:
+            print("\n\033[0;31m[-] Target is Live\033[0m")
+            print(menu)
+        else:
+            print("\n\033[0;31m[!] Oops!! Target is not Live\033[0m\n")
+            ping()
 
 def Exit():
-	while True :
-		cond = input("Are you sure (y/n) : ")
-		if cond == str('y'or 'Y'):
-			exit()	
-		elif cond == str('n' or 'N'):
-			os.system("clear")
-			print(logo)
-			ping()			
-			option()
-		else:
-			print("\n\033[0;31m[!] Invalid Input\033[0m\n")
+    while True:
+        cond = input("Are you sure (y/n) : ")
+        if cond.lower() == 'y':
+            exit()
+        elif cond.lower() == 'n':
+            os.system("clear")
+            print(logo)
+            ping()            
+            option()
+        else:
+            print("\n\033[0;31m[!] Invalid Input\033[0m\n")
 
 	# Exit function to Exit the Tool
 
