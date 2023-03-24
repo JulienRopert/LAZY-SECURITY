@@ -148,6 +148,53 @@ pwsh Security-Scan-PWDJR.ps1
         Time : intervalle entre les demandes
 
         Ci-joint une documentation sur les recherches de type DORK : https://www.funinformatique.com/google-dorks-hackez-requete-google/
+        
+        <br/><br/>  
+        
+- Recherche de fichiers spécifiques sur un site Web :
+
+```bash
+site:example.com filetype:pdf
+```
+Cela retournera tous les fichiers PDF sur le site example.com.
+
+<br/><br/> 
+
+- Recherche de pages contenant des informations sensibles :
+```bash
+site:example.com intitle:"Index of /" password
+```
+Cela retournera toutes les pages sur le site example.com qui contiennent le mot de passe dans le titre et qui ont une URL qui inclut "Index of /".
+
+<br/><br/>  
+- Recherche de pages vulnérables à l'injection SQL :
+```bash
+site:example.com inurl:.php?id= intext:"SQL injection"
+```
+Cela retournera toutes les pages sur le site example.com qui ont une URL qui inclut ".php?id=" et qui contiennent le terme "SQL injection" dans le texte de la page.
+
+<br/><br/>  
+
+- Recherche de systèmes vulnérables à la prise de contrôle à distance :
+```bash
+intitle:"Welcome to the Web-Based Configurator" inurl:login.asp
+```
+Cela retournera toutes les pages sur le Web qui ont le titre "Welcome to the Web-Based Configurator" et qui ont une URL qui inclut "login.asp", ce qui peut être un signe que le système est vulnérable à la prise de contrôle à distance.
+<br/><br/>  
+
+- Recherche de fichiers de sauvegarde non sécurisés :
+```bash
+site:example.com intitle:"Index of /" backup
+```
+Cela retournera toutes les pages sur le site example.com qui ont le titre "Index of /" et qui contiennent le mot "backup" dans l'URL, ce qui peut indiquer la présence de fichiers de sauvegarde non sécurisés.
+<br/><br/>  
+
+- Recherche de pages contenant des informations sensibles dans l'URL :
+```bash
+site:example.com inurl:admin password
+```
+Cela retournera toutes les pages sur le site example.com qui ont "admin" dans l'URL et qui contiennent le mot de passe dans le contenu de la page. Cette requête est souvent utilisée pour trouver des pages d'administration de site Web vulnérables.
+<br/><br/>  
 
 
     ![alt texte](Photo/dork.png).
