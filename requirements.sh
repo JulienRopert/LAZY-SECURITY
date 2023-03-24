@@ -13,6 +13,8 @@ pip install argparse
 # Demander le mot de passe sudo une fois pour tout le script
 sudo echo "Exécution avec droits administrateurs"
 
+mkdir resultats
+
 # Mettre à jour les dépôts
 sudo apt update
 
