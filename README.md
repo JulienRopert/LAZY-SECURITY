@@ -54,13 +54,6 @@ Il n'est pas compatible avec un environnement Windows.
 
 Il est fortement recommandé d'effectuer le "git clone" dans un dossier isolé.
 
-Avant toute chose il faut mettre a jour la distribution :
-
-```bash
-sudo apt update
-sudo apt upgrade
-```     
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <br/><br/>
 
