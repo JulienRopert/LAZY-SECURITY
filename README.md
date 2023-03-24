@@ -21,13 +21,16 @@ Vous trouverez le code décrit précisement directement dans le code source.
 
 ![Alt Text](Photo/Conditions.png)
 
-Il est FORTEMENT recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
-Il n'est pas compatible avec un environnement Windows.
              
 <br/><br/>            
               
+  ![Alt Text](Photo/------------------------------------------attention-!!!!!!!!!!!!!----------------------------------------.svg)
+<br/><br/>            
 
-  OPENVAS est actuellement defectueux sur Parrot OS   
+Il est FORTEMENT recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
+Il n'est pas compatible avec un environnement Windows.
+OPENVAS est actuellement defectueux sur Parrot OS.   
+<br/><br/>            
 
 - Pour corriger le probleme il faut copier les répertoirs présent dans le dossier /lib64/libopenvas* Dans le dossier /lib/.
 - Correctif automatique dans le Script.
