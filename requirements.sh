@@ -8,6 +8,8 @@ pip install requests
 pip install bs4
 pip install beautifulsoup4
 pip install argparse
+pip install base64
+pip install pathlib
 
 
 # Demander le mot de passe sudo une fois pour tout le script
