@@ -198,7 +198,7 @@ if($theChosenIndex -eq 1)
 }
     ElseIf($theChosenIndex -eq 2)
       { 
-      python3 Dolkings/dolkings.py 
+      python3 DORKS.py 
       pause
       mainMenu
       
