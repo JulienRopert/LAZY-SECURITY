@@ -21,8 +21,9 @@ Vous trouverez le code décrit précisement directement dans le code source.
 
 ![Alt Text](Photo/Conditions.png)
 
-Il est recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
+Il est FORTEMENT recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
 Il n'est pas compatible avec un environnement Windows.
+<br/><br/>   
 
 
                           **                                                 **                     
@@ -37,11 +38,16 @@ Il n'est pas compatible avec un environnement Windows.
                  **                **                               **                **            
                 **        OO        **                             **        OO        **           
                ************************                           ************************          
+         
+<br/><br/>            
               
 
   OPENVAS est actuellement defectueux sur Parrot OS   
 
-- Pour corriger le probleme il faut copier les répertoirs présent dans le dossier /lib64/libopenvas* Dans le dossier /lib/
+- Pour corriger le probleme il faut copier les répertoirs présent dans le dossier /lib64/libopenvas* Dans le dossier /lib/.
+- Correctif automatique dans le Script.
+
+<br/><br/>   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Prérequis
@@ -52,7 +58,13 @@ Il n'est pas compatible avec un environnement Windows.
 - nikto
 - pip
 - Openvas
-- Diverses dépendances lisibles dans le fichier "dépendances.txt"
+- urllib3_1_26_2
+- bs4
+- google
+- googlesearch-python
+- requests
+- beautifulsoup4
+- argparse
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Execution
 
