@@ -172,6 +172,7 @@ site:example.com intitle:"Index of /" password
 Cela retournera toutes les pages sur le site example.com qui contiennent le mot de passe dans le titre et qui ont une URL qui inclut "Index of /".
 
 <br/><br/>  
+
 - Recherche de pages vulnérables à l'injection SQL :
 ```bash
 site:example.com inurl:.php?id= intext:"SQL injection"
@@ -185,6 +186,7 @@ Cela retournera toutes les pages sur le site example.com qui ont une URL qui inc
 intitle:"Welcome to the Web-Based Configurator" inurl:login.asp
 ```
 Cela retournera toutes les pages sur le Web qui ont le titre "Welcome to the Web-Based Configurator" et qui ont une URL qui inclut "login.asp", ce qui peut être un signe que le système est vulnérable à la prise de contrôle à distance.
+
 <br/><br/>  
 
 - Recherche de fichiers de sauvegarde non sécurisés :
@@ -192,6 +194,7 @@ Cela retournera toutes les pages sur le Web qui ont le titre "Welcome to the Web
 site:example.com intitle:"Index of /" backup
 ```
 Cela retournera toutes les pages sur le site example.com qui ont le titre "Index of /" et qui contiennent le mot "backup" dans l'URL, ce qui peut indiquer la présence de fichiers de sauvegarde non sécurisés.
+
 <br/><br/>  
 
 - Recherche de pages contenant des informations sensibles dans l'URL :
@@ -199,21 +202,21 @@ Cela retournera toutes les pages sur le site example.com qui ont le titre "Index
 site:example.com inurl:admin password
 ```
 Cela retournera toutes les pages sur le site example.com qui ont "admin" dans l'URL et qui contiennent le mot de passe dans le contenu de la page. Cette requête est souvent utilisée pour trouver des pages d'administration de site Web vulnérables.
+
 <br/><br/>  
 
-
-    ![alt texte](Photo/dork.png).
+![alt texte](Photo/dork.png).
     
 
-    - WebScrapping
+- WebScrapping
 
-        L’outil est capable d’effectuer diverses opérations comme trouver des sous-domaines, la technologie Web, panneau d’administration, répertoire, entête HTTP, informations WHOIS, balayage de port, balayage TCP/UDP, recherche inverse IP, recherche de sous-réseau, géolocalisation, recherche DNS, tracé, détection de pare-feu, analyse de vulnérabilité et transfert de zone.
+L’outil est capable d’effectuer diverses opérations comme trouver des sous-domaines, la technologie Web, panneau d’administration, répertoire, entête HTTP, informations WHOIS, balayage de port, balayage TCP/UDP, recherche inverse IP, recherche de sous-réseau, géolocalisation, recherche DNS, tracé, détection de pare-feu, analyse de vulnérabilité et transfert de zone.
 
-    -  Utilisation 
+ -  Utilisation 
 
-        Saisissez l’adresse cible (par exemple, adresse.com ou IP).
-        Choisissez une option dans le menu.
-        Suivez les instructions à l’écran.
+ Saisissez l’adresse cible (par exemple, adresse.com ou IP).
+ Choisissez une option dans le menu.
+ Suivez les instructions à l’écran.
         
    
 
@@ -224,7 +227,6 @@ Cela retournera toutes les pages sur le site example.com qui ont "admin" dans l'
 
 ## Sources :
 
-- https://github.com/Yutixcode/Dolkings
 - https://github.com/Encryptor-Sec/Web-Scraper
 - https://github.com/greenbone/gvm-tools
 - https://nmap.org/book/man-briefoptions.html
