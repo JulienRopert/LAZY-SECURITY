@@ -1,5 +1,7 @@
 #!/bin/bash
-
+pip install py-models-parser
+pip install API7
+pip install py-session
 pip install alembic
 pip install asn1crypto
 pip install attrs
