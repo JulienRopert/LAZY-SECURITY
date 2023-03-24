@@ -1,3 +1,4 @@
+# Récupération de la lib Googlesearch
 from googlesearch import search
 import os
 
@@ -8,13 +9,13 @@ results_file = "resultats.txt"
 if not os.path.exists("resultats"):
     os.mkdir("resultats")
 
-# Effectuer la recherche et afficher les 10 premiers résultats
+# Demarre la recherche et affiche les 10 premiers résultats
 results = []
 for url in search(query, num_results=10):
     print(url)
     results.append(url)
 
-# Enregistrer les résultats dans un fichier texte
+# Enregistrement des résultats dans un fichier texte
 with open(os.path.join("resultats", results_file), "w") as f:
     for url in results:
         f.write(url + "\n")
