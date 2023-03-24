@@ -138,9 +138,7 @@ pwsh Security-Scan-PWDJR.ps1
         et 30000€ d’amende. Celle-ci peut être portée à 3 ans d’emprisonnement et 45000€ d’amende lorsqu’il en résulte "
         «soit la suppression, soit la modification de données contenues dans le système, soit une altération du fonctionnement de ce système».
     
-    - Lecture des Dépendances
-
- Permets d'afficher toutes les dépendances nécessaires au bon fonctionnement du script. 
+  
 
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -160,8 +158,21 @@ pwsh Security-Scan-PWDJR.ps1
    - Interne/OPENVAS
 
         Effectue un scan à l'aide d'OPENVAS GREENBONE vous pouvez consulter l'avancer sur la console web https://127.0.0.1:9392/login.
+        
+        Le login et mot de passe par défaut on été changé dans l'installation des prérequis par : login= admin  mdp= admin.
+        Vous etes libre de les modifier.
+  
+        A l'execution de la fonctionalité, il vous suffira d'entrer les mots de passe et login par défaut, puis d'indiquer votre cible.
+         
+       
         Vous pouvez exporter le résultat en PDF en exécutant ./pdf_openvas.sh, vous aurez besoin de l'id générer dans le document Scan_OPENVAS_ID.txt".
         Le scan prend un certain temps, il est conseillé de consulter l'avancée de celui-ci via l'interface web avant de générer un résultat en PDF.
+        
+        Le login et mot de passe par défaut on été changé dans l'installation des prérequis par : login= admin  mdp= admin.
+        Vous etes libre de les modifier.
+        
+       
+        
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -170,15 +181,15 @@ pwsh Security-Scan-PWDJR.ps1
     - Google Dorks
 
         Cet outil permet d'effectuer des recherches précises avec la méthode "Google Dorks" 
-        Dork : la requête de recherche que vous souhaitez utiliser
-        Page : le nombre de sites Web à afficher
-        Time : intervalle entre les demandes
-
-        Ci-joint une documentation sur les recherches de type DORK : https://www.funinformatique.com/google-dorks-hackez-requete-google/
+        Entrez simplement la requette souhaitée.
         
+        Exemple : inurl:Julien Ropert
+
+        Vous trouverez une documentation sur les recherches de type DORK : https://www.funinformatique.com/google-dorks-hackez-requete-google/.
+        Vous trouverez également une serie d'exemple en correlation avec la cybersécuritée.
         <br/><br/>  
         
-![alt texte](Photo/dork.png).
+       ![alt texte](Photo/dork.png).
 
 <br/><br/> 
 
