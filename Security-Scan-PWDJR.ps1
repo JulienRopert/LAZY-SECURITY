@@ -1,4 +1,5 @@
-﻿function createAmenu
+#Création du Menu composé de 4 options et 3 sous menus.
+function createAmenu
 {
     param([array]$listelements,[string]$title)
          cls
@@ -37,6 +38,7 @@ function mainMenu
      [string]$TheMenuTitle = "Menu Principal"
      do
      {
+     #Enumeration des différents choix, avec le résultat (execution de la fonction submenuOne---two---three...)
          [int]$theChosenIndex = createAmenu $theMainMenu $TheMenuTitle
      }
      while($theChosenIndex -lt 1 -or $theChosenIndex -gt $theMainMenu.count -or !$theChosenIndex)
@@ -191,6 +193,7 @@ if($theChosenIndex -eq 1)
 }
     ElseIf($theChosenIndex -eq 2)
       { 
+      #Execution de DORKS.py 
       python3 DORKS.py 
       pause
       mainMenu
