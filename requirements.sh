@@ -33,6 +33,7 @@ sudo mv /lib64/libopenvas_nasl.so /lib
 sudo mv /lib64/libopenvas_nasl.so.21 /lib
 sudo mv /lib64/libopenvas_misc.so.21.4.4 /lib
 sudo mv /lib64/libopenvas_nasl.so.21.4.4 /lib
+sudo chmod 777 GVM/gvm-scan.sh
 
 # Vérifier la configuration de l'installation
 sudo gvm-check-setup
