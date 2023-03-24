@@ -162,7 +162,7 @@ Write-Host "Scan Nikto terminé, les résultats sont enregistrés dans le fichie
     {
     Write-Host "Les identifiants par défaut d'openVAS sont admin, admin"
         pause
-    ./GVM/Ovas.SH
+    ./Ovas.SH
     Write-Host "le scan est en court, vous pouvez consulter l'avancer sur la console web https://127.0.0.1:9392/login dans la section Scans Task"
     pause
     Write-host "Vous pouvez exporter le resultat en pdf en executant ./pdf_openvas.sh, vous aurez besoin de l'id generer dans le document Scan_OPENVAS_ID.txt"
