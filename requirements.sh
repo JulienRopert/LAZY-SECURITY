@@ -15,6 +15,7 @@ pip install pathlib
 sudo echo "Exécution avec droits administrateurs"
 # ajoute le dossier resultats
 mkdir resultats
+sudo chmod 777 resultats
 
 # Mettre à jour les dépôts
 sudo apt update
