@@ -63,8 +63,5 @@ sudo chmod 777 run.sh
 
 
 
-# Changer le mot de passe de l'utilisateur admin
-sudo -E -u _gvm -g _gvm gvmd --user=admin --new-password=admin
-
 # Execute la verification d'installation
 ./run.sh
