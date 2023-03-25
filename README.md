@@ -242,7 +242,27 @@ L’outil est capable d’effectuer diverses opérations comme trouver des sous-
  Saisissez l’adresse cible (par exemple, adresse.com ou IP).
  Choisissez une option dans le menu.
  Suivez les instructions à l’écran.
-        
+ 
+ - 1 Aide à identifier l'organisation, le pays où se trouve le réseau et les politiques de routage du réseau
+ - 2 Récupération des http header (Récupération d'informations multiples)
+ - 3 Découverte des sous-domaines
+ - 4 Permet de découvrir quel programme est utilisé pour le service web (IIS, APACHE, NGINX....)
+ - 5 Scan le serveur web a la recherche du panneau de configuration administrateur
+ - 6 
+ - 7 Recherche d'informations sur les noms de domaine, les adresses IP et les numéros de système autonome (ASN)
+ - 8 Scan de port (nmap)
+ - 9 Scan de port (nmap avec arguments tcp only)
+ - 10 Scan de port (namp avec arguments UDP only)
+ - 11 Recherche de liens de redirection vers l'exterieur
+ - 12 Récupération du system serveur web et de sa version
+ - 13
+ - 14 
+ - 15 Détermine la position du serveur web
+ - 16
+ - 17
+ - 18 
+ - 19 Effectuer un scan complet avec l'outil Nikto
+ - 20
    
 
 ![alt text](Photo/scrap.png).
