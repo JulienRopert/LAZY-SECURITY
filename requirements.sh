@@ -61,7 +61,7 @@ sudo chmod 777 run.sh
 
 
 
-# Changement du mot de passe, check de l'installation, demarrage de GVM 
+# Changement du mot de passe, check de l'installation, demarrage de GVM, et mise a jour de la BDD CVE
 
 sudo gvm-feed-update
 sudo gvm-check-setup
