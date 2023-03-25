@@ -27,7 +27,7 @@ Vous trouverez le code décrit précisement directement dans le code source.
   ![Alt Text](Photo/------------------------------------------attention-!!!!!!!!!!!!!----------------------------------------.svg)
 <br/><br/>            
 
-Il est FORTEMENT recommandé d'utiliser une distribution Parrot OS possédant la majorité des dépendances.
+Il est FORTEMENT recommandé d'utiliser une distribution Parrot OS Security 5.2 possédant la majorité des dépendances.
 Il n'est pas compatible avec un environnement Windows.
 
 <br/><br/>            
