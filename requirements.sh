@@ -22,6 +22,8 @@ sudo apt update
 # Mettre à jour les paquets existants
 sudo apt upgrade -y
 
+# Installation de openvas
+sudo apt install openvas
 
 # Exécuter gvm-setup pour configurer OpenVAS
 sudo gvm-setup
