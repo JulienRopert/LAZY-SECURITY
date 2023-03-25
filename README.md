@@ -86,7 +86,7 @@ cd LAZY-SECURITY
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Lancement du script d'installation.
+Lancement du script d'installation. (toute cette partie est a effectuer une seule fois.)
 
 ```bash
 sudo bash ./requirements.sh 
@@ -96,8 +96,21 @@ Il est possible que le script se bloque durant son executer (cela dépend de la 
 
 Si cela arrive il suffit de presser les touches ```bash Ctrl+C ```
 
+Ajoute des autorisations sur les différents elements openvas (ne peut pas etre lancer en root)
+
+```bash
+sudo bash ./fix.sh
+```
+
 <br/><br/>
 
+Demmarrage d'openvas et changement du mot de passe par défaut.
+
+```bash
+sudo bash ./run.sh
+```
+
+```bash ----- Fin de l'installation des prérequis ----- ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
