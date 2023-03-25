@@ -86,7 +86,7 @@ cd LAZY-SECURITY
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```Lancement du script d'installation. (Cette partie est a effectuer une seule fois.)```
+Lancement du script d'installation. ```(Cette partie est a effectuer une seule fois.)```
 
 ```bash
 sudo bash ./requirements.sh 
