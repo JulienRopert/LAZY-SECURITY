@@ -1,6 +1,6 @@
 # README LAZY-SECURITY
 
-![Alt Text](Photo/lazy-security.svg)
+![Alt Text](Photo/open-vas.svg)
 <br/><br/>    
 ![Alt Text](Photo/open-source.svg)
 <br/><br/>    
