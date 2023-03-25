@@ -110,6 +110,15 @@ Demmarrage d'openvas et changement du mot de passe par défaut.
 sudo bash ./run.sh
 ```
 
+
+<br/><br/>
+
+Ajoutes des droits d'ecriture dans le fichier openvas.log
+
+```bash
+sudo chmod 777 /etc/openvas/openvas_log.conf
+```
+
 ```----- Fin de l'installation des prérequis ----- ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
