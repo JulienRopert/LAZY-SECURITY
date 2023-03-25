@@ -33,12 +33,12 @@ sudo gvm-setup
 sudo gvm-feed-update
 
 # CORRECTIF OPENVAS, déplaces les lib au bon endroit
-sudo mv /lib64/libopenvas_misc.so /lib
-sudo mv /lib64/libopenvas_misc.so.21 /lib
-sudo mv /lib64/libopenvas_nasl.so /lib
-sudo mv /lib64/libopenvas_nasl.so.21 /lib
-sudo mv /lib64/libopenvas_misc.so.21.4.4 /lib
-sudo mv /lib64/libopenvas_nasl.so.21.4.4 /lib
+sudo cp /lib64/libopenvas_misc.so /lib
+sudo cp /lib64/libopenvas_misc.so.21 /lib
+sudo cp /lib64/libopenvas_nasl.so /lib
+sudo cp /lib64/libopenvas_nasl.so.21 /lib
+sudo cp /lib64/libopenvas_misc.so.21.4.4 /lib
+sudo cp /lib64/libopenvas_nasl.so.21.4.4 /lib
 
 # Ajout des autorisations d'execution des scripts.
 sudo chmod 777 gvm-scan.sh
@@ -50,6 +50,14 @@ sudo chmod 777 Ovas.SH
 sudo chmod 777 /usr/lib/python3/dist-packages/gvm
 sudo chmod 777 /usr/lib/python3/dist-packages/gvmtools
 sudo chmod 777 /var/run/gvmd/gvmd.sock
+sudo chmod 777 /etc/gvm/ospd-openvas.conf
+sudo chmod 777 /etc/gvm/gvmd_log.conf
+sudo chmod 777 /etc/gvm/gsad_log.conf
+sudo chmod 777 /etc/gvm/pwpolicy.conf
+sudo chmod 777 /usr/bin/ospd-openvas
+sudo chmod 777 /etc/openvas/openvas.conf
+sudo chmod 777 /etc/openvas/openvas_log.conf
+sudo chmod 777 /etc/openvas/gnupg
 
 # Vérifier la configuration de l'installation
 sudo gvm-check-setup
