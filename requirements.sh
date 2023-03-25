@@ -59,10 +59,12 @@ sudo chmod 777 /etc/openvas/openvas.conf
 sudo chmod 777 /etc/openvas/openvas_log.conf
 sudo chmod 777 /etc/openvas/gnupg
 sudo chmod 127 /var/log/gvm/openvas.log
+sudo chmod 777 run.sh
 
 
 
 # Changer le mot de passe de l'utilisateur admin
 sudo -E -u _gvm -g _gvm gvmd --user=admin --new-password=admin
 
+# Execute la verification d'installation
 ./run.sh
