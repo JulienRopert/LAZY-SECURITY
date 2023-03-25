@@ -101,7 +101,7 @@ Il est possible que le script se bloque durant son executer (cela dépend de la 
 Si cela arrive il suffit de presser les touches ```bash Ctrl+C ```
 
 
-Ajoutes des droits d'ecriture dans le fichier openvas.log
+Ajoutes des droits d'ecritures
 
 ```bash
 sudo chmod 777 /etc/openvas/openvas_log.conf
