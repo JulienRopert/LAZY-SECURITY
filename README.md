@@ -7,8 +7,9 @@
 ![Alt Text](Photo/lazy-work.svg)
 <br/><br/>    
 ![Alt Text](Photo/powered-by-julien-ropert.svg)
-
-
+<br/><br/>    
+![Alt Text](Photo/parrot-security-5.2.svg)
+<br/><br/>     
 
 <br/><br/>
 ![Alt Text](Photo/Parrot.png)
