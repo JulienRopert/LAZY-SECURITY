@@ -29,8 +29,6 @@ sudo apt install openvas
 # Exécuter gvm-setup pour configurer OpenVAS
 sudo gvm-setup
 
-# Mettre à jour les feeds
-sudo gvm-feed-update
 
 # CORRECTIF OPENVAS, déplaces les lib au bon endroit
 sudo cp /lib64/libopenvas_misc.so /lib
@@ -63,5 +61,9 @@ sudo chmod 777 run.sh
 
 
 
-# Execute la verification d'installation
-./run.sh
+# Rectification des droits, check de l'installation, et changement du mdp par défaut
+
+sudo gvm-feed-update
+sudo gvm-check-setup
+sudo gvm-start
+sudo -E -u _gvm -g _gvm gvmd --user=admin --new-password=admin
