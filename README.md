@@ -88,6 +88,10 @@ cd LAZY-SECURITY
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lancement du script d'installation. ```(Cette partie est a effectuer une seule fois.)```
 
+<br/><br/>    
+``` ------- NE PAS UTILISER SUDO SU (MODE ROOT) ------```
+
+
 ```bash
 sudo bash ./requirements.sh 
 ```
