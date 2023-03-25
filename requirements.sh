@@ -61,7 +61,7 @@ sudo chmod 777 run.sh
 
 
 
-# Rectification des droits, check de l'installation, et changement du mdp par défaut
+# Changement du mot de passe, check de l'installation, demarrage de GVM 
 
 sudo gvm-feed-update
 sudo gvm-check-setup
