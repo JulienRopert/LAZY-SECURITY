@@ -136,7 +136,8 @@ pwsh Security-Scan-PWDJR.ps1
     
     - Webapp
 
-        Fonctionnalité qui permet de scanner les vulnérabilités d'un serveur web, exécute à la suite un scan NMAP et NIKTO, avec une boite de dialogue interactif. Génère un résultat sous forme TXT dans le dossier Résultats sous la forme suivante : (nmap $target.txt) et (nikto $target.txt).
+        Fonctionnalité qui permet de scanner les vulnérabilités d'un serveur web, exécute à la suite un scan NMAP et NIKTO, avec une boite de dialogue interactive. Génère un résultat sous forme TXT dans le dossier Résultats sous la forme suivante : (nmap $target.txt) et (nikto $target.txt).
+        Il n'est pas nécéssaire d'ajouter des arguments, appuiyer sur entrer lors des deux demande si vous ne comptez pas en ajouter.
 
     ![alt text](Photo/nikto_nmap.png)
     
