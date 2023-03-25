@@ -128,6 +128,7 @@ sudo bash ./run.sh
 
 <br/><br/>
 
+``` Si OPENVAS echoue son lancement, repetez les opérations 2 et 4 ```
 
 ```----- Fin de l'installation des prérequis ----- ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
