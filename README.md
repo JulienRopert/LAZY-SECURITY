@@ -131,7 +131,16 @@ sudo bash ./run.sh
 
 <br/><br/>
 
-``` Si OPENVAS echoue son lancement, repetez les opérations 2 et 4 ```
+``` Si OPENVAS echoue son lancement ```
+
+```bash
+sudo gvm-stop
+sudo chmod 777 /etc/openvas/openvas_log.conf
+sudo chmod 777 /var/log/gvm/openvas.log
+sudo chmod 777 Ovas.SH
+sudo chmod 777 gvm-scan.sh
+sudo chmod 777 Scan_OPENVAS_ID.txt ```
+
 
 ```----- Fin de l'installation des prérequis ----- ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
