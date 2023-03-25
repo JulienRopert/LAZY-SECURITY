@@ -44,3 +44,4 @@ sudo cp /lib64/libopenvas_nasl.so.21.4.4 /lib
 # Ajout des autorisations d'execution des scripts.
 sudo chmod 777 gvm-scan.sh
 sudo chmod 777 Ovas.SH
+sudo chmod 777 Scan_OPENVAS_ID.txt 
