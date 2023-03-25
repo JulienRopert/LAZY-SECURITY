@@ -55,6 +55,7 @@ sudo chmod 777 /usr/bin/ospd-openvas
 sudo chmod 777 /etc/openvas/openvas.conf
 sudo chmod 777 /etc/openvas/openvas_log.conf
 sudo chmod 777 /etc/openvas/gnupg
+sudo chmod 777 /var/log/gvm/openvas.log
 
 # Vérifier la configuration de l'installation
 sudo gvm-check-setup
