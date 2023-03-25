@@ -29,6 +29,9 @@ sudo apt install openvas
 # Exécuter gvm-setup pour configurer OpenVAS
 sudo gvm-setup
 
+# Mise a jour de la DB CVE
+sudo gvm-feed-update
+
 
 # CORRECTIF OPENVAS, déplaces les lib au bon endroit
 sudo cp /lib64/libopenvas_misc.so /lib
