@@ -100,7 +100,6 @@ sudo bash ./requirements.sh
 
 Exécution du script (dans le dossier courant) : 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```bash
 pwsh Security-Scan-PWDJR.ps1
