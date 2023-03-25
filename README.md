@@ -96,7 +96,17 @@ Il est possible que le script se bloque durant son executer (cela dépend de la 
 
 Si cela arrive il suffit de presser les touches ```bash Ctrl+C ```
 
-Ajoute des autorisations sur les différents elements openvas (ne peut pas etre lancer en root)
+
+Ajoutes des droits d'ecriture dans le fichier openvas.log
+
+```bash
+sudo chmod 777 /etc/openvas/openvas_log.conf
+```
+
+<br/><br/> 
+
+
+Ajout des autorisations sur les différents elements openvas (ne peut pas etre lancer en root)
 
 ```bash
 sudo bash ./fix.sh
@@ -113,11 +123,6 @@ sudo bash ./run.sh
 
 <br/><br/>
 
-Ajoutes des droits d'ecriture dans le fichier openvas.log
-
-```bash
-sudo chmod 777 /etc/openvas/openvas_log.conf
-```
 
 ```----- Fin de l'installation des prérequis ----- ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
