@@ -106,6 +106,8 @@ Ajoutes des droits d'ecriture dans le fichier openvas.log
 ```bash
 sudo chmod 777 /etc/openvas/openvas_log.conf
 sudo chmod 777 /var/log/gvm/openvas.log
+sudo chmod 777 Ovas.SH
+sudo chmod 777 gvm-scan.sh
 ```
 
 <br/><br/> 
