@@ -144,6 +144,7 @@ sudo chmod 777 /var/log/gvm/openvas.log
 sudo chmod 777 Ovas.SH
 sudo chmod 777 gvm-scan.sh
 sudo chmod 777 Scan_OPENVAS_ID.txt
+sudo gvm-start
 ```
 
 
