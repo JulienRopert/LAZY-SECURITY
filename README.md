@@ -122,7 +122,7 @@ sudo bash ./fix.sh
 
 <br/><br/>
 
-Demmarrage d'openvas et changement du mot de passe par défaut.
+Demarrage d'openvas et changement du mot de passe par défaut.
 
 ```bash
 sudo bash ./run.sh
@@ -131,7 +131,8 @@ sudo bash ./run.sh
 
 <br/><br/>
 
-``` ----- Si OPENVAS echoue son lancement ----- ```
+```----- Si le lancement d'OPENVAS Echoue -----``` 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <br/><br/>
 
