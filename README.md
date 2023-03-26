@@ -235,6 +235,10 @@ pwsh Security-Scan-PWDJR.ps1
 
         Effectue un scan à l'aide d'OPENVAS GREENBONE vous pouvez consulter l'avancer sur la console web https://127.0.0.1:9392/login.
         
+        Pour savoir si OPENVAS est opérationnel, rendez vous dans la section ```Configuration\Scan Config``` Si les configuration de scan sont présentes
+        
+        alors vous etre pret a utiliser cette fonction !
+        
         Le login et mot de passe par défaut on été changé dans l'installation des prérequis par : login= admin  mdp= admin.
         Vous etes libre de les modifier.
   
@@ -246,6 +250,17 @@ pwsh Security-Scan-PWDJR.ps1
         
         Le login et mot de passe par défaut on été changé dans l'installation des prérequis par : login= admin  mdp= admin.
         Vous etes libre de les modifier.
+        
+        En cas d'echec d'execution de la fonctionalité ( Pas d'apparition dans l'interface graphique du scan )
+        
+        Et le Fichier Scan_OPENVAS_ID.txt termine en Permission denied effectuez ses commandes : 
+        
+        ```bash
+        sudo chmod 777 /usr/lib/python3/dist-packages/gvm/protocols/base.py
+        sudo chmod 777 /usr/lib/python3/dist-packages/gvm/connections.py
+        sudo chmod 777 /usr/lib/python3/dist-packages/gvm/protocols/gmp.py
+        sudo chmod 777 /usr/lib/python3/dist-packages/gvmtools/script.py``` 
+        
         
        
         
