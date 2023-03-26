@@ -149,7 +149,9 @@ Demarrage d'openvas et changement du mot de passe par défaut.
 sudo bash ./run.sh
 ```
 
-``` Le premier lancement d'openvas peut prendre maximum quelques heures, la fonctionalité de scan ne sera pas disponible avant l'initalisation complete ``` 
+<br/><br/>
+```Le premier lancement d'openvas peut prendre maximum quelques heures, la fonctionalité de scan ne sera pas disponible avant l'initalisation complete```
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <br/><br/>
 
