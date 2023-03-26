@@ -95,11 +95,8 @@ Lancement du script d'installation. ```(Cette partie est a effectuer une seule f
 ```bash
 sudo bash ./requirements.sh 
 ```
-
-Il est possible que le script se bloque durant son execution (cela dépend de la puisance de la machine).
-
-Si cela arrive il suffit de presser les touches ```bash Ctrl+C ```
-
+`
+<br/><br/> 
 
 Ajoutes des droits d'ecriture
 
