@@ -86,6 +86,7 @@ cd LAZY-SECURITY
 
 <br/><br/>     
 
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lancement du script d'installation. ```(Cette partie est a effectuer une seule fois.)```
@@ -148,6 +149,7 @@ Demarrage d'openvas et changement du mot de passe par défaut.
 sudo bash ./run.sh
 ```
 
+```----- Le premier lancement d'openvas peut prendre maximum quelques heures, la fonctionalité de scan ne sera pas disponible avant l'initalisation complete -----``` 
 
 <br/><br/>
 
