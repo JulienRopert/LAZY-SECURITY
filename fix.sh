@@ -18,3 +18,7 @@ sudo chmod 777 /etc/openvas/openvas_log.conf
 sudo chmod 777 /etc/openvas/gnupg
 sudo chmod 127 /var/log/gvm/openvas.log
 sudo chmod 777 run.sh
+sudo chmod 777 /usr/lib/python3/dist-packages/gvm/protocols/base.py
+sudo chmod 777 /usr/lib/python3/dist-packages/gvm/connections.py
+sudo chmod 777 /usr/lib/python3/dist-packages/gvm/protocols/gmp.py
+sudo chmod 777 /usr/lib/python3/dist-packages/gvmtools/script.py
