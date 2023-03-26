@@ -113,7 +113,7 @@ sudo cp /lib64/libopenvas_nasl.so.21 /lib
 sudo cp /lib64/libopenvas_misc.so.21.4.4 /lib
 sudo cp /lib64/libopenvas_nasl.so.21.4.4 /lib
 ```
-
+Mise a jour de la DB CVE
 ```bash
 sudo gvm-feed-update
 ```
