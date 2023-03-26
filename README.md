@@ -253,7 +253,7 @@ pwsh Security-Scan-PWDJR.ps1
         
         En cas d'echec d'execution de la fonctionalité ( Pas d'apparition dans l'interface graphique du scan )
         
-        Et le Fichier Scan_OPENVAS_ID.txt termine en Permission denied effectuez ses commandes : 
+        Et le Fichier Scan_OPENVAS_ID.txt termine en Permission denied effectuez ses commandes puis le probleme sera reglé: 
         
         ```bash
         sudo chmod 777 /usr/lib/python3/dist-packages/gvm/protocols/base.py
