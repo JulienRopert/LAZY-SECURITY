@@ -18,22 +18,22 @@
 
 Ce Projet est composé de différents outils open source, qui a pour but d'automatiser les détections de vulnérabilités, mais également de réaliser de la recherche d'informations.
 
-Vous trouverez le code décrit précisement directement dans le code source.
+Vous trouverez le code décrit précisément directement dans le code source.
 
 ![Alt Text](Photo/Conditions.png)
 
              
 <br/><br/>            
               
-  ![Alt Text](Photo/------------------------------------------attention-!!!!!!!!!!!!!----------------------------------------.svg)
+  ![Alt Text](Photo/------------------------------------------attention-!!!!!!!!!!!!!----------------------------------------.sag)
 <br/><br/>            
 
-Ce projet est a l'heure actuelle uniquement compatible une distribution Parrot OS Security, de préférence 5.2 possédant la majorité des dépendances.
+Ce projet est à l'heure actuelle uniquement compatible une distribution Parrot OS Security, de préférence 5.2 possédant la majorité des dépendances.
 Il n'est pas compatible avec un environnement Windows.
 
 <br/><br/>            
-- OPENVAS est actuellement defectueux sur Parrot OS.   
-- Pour corriger le probleme il faut copier les répertoirs présent dans le dossier /lib64/libopenvas* Dans le dossier /lib/.
+- OPENVAS est actuellement défectueux sur Parrot OS.   
+- Pour corriger le problème il faut copier les répertoires présents dans le dossier /lib64/libopenvas* Dans le dossier /lib/.
 - Correctif automatique dans le Script.
 
 <br/><br/>   
@@ -42,22 +42,22 @@ Il n'est pas compatible avec un environnement Windows.
 ### Prérequis
 
 - python3 
-- powershell
-- nmap
+- PowerShell
+- Nmap
 - nikto
 - pip
-- Openvas
+- OpenVAS
 - urllib3_1_26_2
 - bs4
 - google
-- googlesearch-python
+- google search-python
 - requests
 - beautifulsoup4
 - argparse
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Execution
+### Exécution
 
 Il est fortement recommandé d'effectuer le "git clone" dans un dossier isolé.
 
@@ -89,7 +89,7 @@ cd LAZY-SECURITY
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Lancement du script d'installation. ```(Cette partie est a effectuer une seule fois.)```
+Lancement du script d'installation. ```(Cette partie est à effectuer une seule fois.)```
 
 <br/><br/>    
 ``` ------- NE PAS UTILISER SUDO SU (MODE ROOT) ------```
@@ -114,14 +114,14 @@ sudo cp /lib64/libopenvas_nasl.so.21 /lib
 sudo cp /lib64/libopenvas_misc.so.21.4.4 /lib
 sudo cp /lib64/libopenvas_nasl.so.21.4.4 /lib
 ```
-Mise a jour de la DB CVE
+Mise à jour de la DB CVE
 ```bash
 sudo gvm-feed-update
 ```
 
 <br/><br/> 
 
-Ajout des droits d'ecriture
+Ajout des droits d'écriture
 
 ```bash
 sudo chmod 777 /etc/openvas/openvas_log.conf
@@ -134,7 +134,7 @@ sudo chmod 777 Scan_OPENVAS_ID.txt
 <br/><br/> 
 
 
-Ajout des autorisations sur les différents elements openvas (ne peut pas etre lancer en root)
+Ajout des autorisations sur les différents éléments openvas (ne peut pas être lancer en root)
 
 ```bash
 sudo bash ./fix.sh
@@ -143,14 +143,14 @@ sudo bash ./fix.sh
 <br/><br/>
 
 
-Demarrage d'openvas et changement du mot de passe par défaut.
+Démarrage d'openvas et changement du mot de passe par défaut.
 
 ```bash
 sudo bash ./run.sh
 ```
 
 <br/><br/>
-```Le premier lancement d'openvas peut prendre maximum quelques heures, la fonctionalité de scan ne sera pas disponible avant l'initalisation complete```
+```Le premier lancement d'openvas peut prendre maximum quelques heures, la fonctionnalité de scan ne sera pas disponible avant l'initialisation complète```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <br/><br/>
@@ -208,7 +208,7 @@ pwsh Security-Scan-PWDJR.ps1
     
         Le toolbox a pour seul objectif d'améliorer la sécurité des systèmes d'information et non à exploiter les informations récupérées. 
 
-        L’article 323-1 du Code pénal sanctionne«le fait d’accéder ou de se maintenir frauduleusement "
+        L’article 323-1 du Code pénal sanctionne «le fait d’accéder ou de se maintenir frauduleusement "
         dans tout ou partie d’un système de traitement automatisé». La peine encourue est 2 ans d’emprisonnement "
         et 30000€ d’amende. Celle-ci peut être portée à 3 ans d’emprisonnement et 45000€ d’amende lorsqu’il en résulte "
         «soit la suppression, soit la modification de données contenues dans le système, soit une altération du fonctionnement de ce système».
@@ -221,10 +221,10 @@ pwsh Security-Scan-PWDJR.ps1
 
 - Détecteur de vulnérabilités
     
-    - Webapp
+    - Web App
 
         Fonctionnalité qui permet de scanner les vulnérabilités d'un serveur web, exécute à la suite un scan NMAP et NIKTO, avec une boite de dialogue interactive. Génère un résultat sous forme TXT dans le dossier Résultats sous la forme suivante : (nmap $target.txt) et (nikto $target.txt).
-        Il n'est pas nécéssaire d'ajouter des arguments, appuiyer sur entrer lors des deux demande si vous ne comptez pas en ajouter.
+        Il n'est pas nécessaire d'ajouter des arguments, appuyer sur entrer lors des deux demandes si vous ne comptez pas en ajouter.
 
     ![alt text](Photo/nikto_nmap.png)
     
@@ -235,25 +235,25 @@ pwsh Security-Scan-PWDJR.ps1
 
         Effectue un scan à l'aide d'OPENVAS GREENBONE vous pouvez consulter l'avancer sur la console web https://127.0.0.1:9392/login.
         
-        Pour savoir si OPENVAS est opérationnel, rendez vous dans la section ```Configuration\Scan Config``` Si les configuration de scan sont présentes
+        Pour savoir si OPENVAS est opérationnel, rendez-vous dans la section ```Configuration\Scan Config``` Si les configurations de scan sont présentes
         
-        alors vous etre pret a utiliser cette fonction !
+        alors vous être prêt à utiliser cette fonction !
         
-        Le login et mot de passe par défaut on été changé dans l'installation des prérequis par : login= admin  mdp= admin.
-        Vous etes libre de les modifier.
+        Le login et mot de passe par défaut ont été changé dans l'installation des prérequis par : login= admin mdp= admin.
+        Vous êtes libre de les modifier.
   
-        A l'execution de la fonctionalité, il vous suffira d'entrer les mots de passe et login par défaut, puis d'indiquer votre cible.
+        A l'exécution de la fonctionnalité, il vous suffira d'entrer les mots de passe et login par défaut, puis d'indiquer votre cible.
          
        
         Vous pouvez exporter le résultat en PDF en exécutant ./pdf_openvas.sh, vous aurez besoin de l'id générer dans le document Scan_OPENVAS_ID.txt".
         Le scan prend un certain temps, il est conseillé de consulter l'avancée de celui-ci via l'interface web avant de générer un résultat en PDF.
         
-        Le login et mot de passe par défaut on été changé dans l'installation des prérequis par : login= admin  mdp= admin.
-        Vous etes libre de les modifier.
+        Le login et mot de passe par défaut ont été changé dans l'installation des prérequis par : login= admin  mdp= admin.
+        Vous êtes libre de les modifier.
         
-        En cas d'echec d'execution de la fonctionalité ( Pas d'apparition dans l'interface graphique du scan )
+        En cas d'échec d'exécution de la fonctionnalité ( Pas d'apparition dans l'interface graphique du scan )
         
-        Et le Fichier Scan_OPENVAS_ID.txt termine en Permission denied effectuez ses commandes puis le probleme sera reglé: 
+        Et le Fichier Scan_OPENVAS_ID.txt termine en Permission denied effectuez ses commandes puis le problème sera réglé: 
         
         ```bash
         sudo chmod 777 /usr/lib/python3/dist-packages/gvm/protocols/base.py
@@ -272,12 +272,12 @@ pwsh Security-Scan-PWDJR.ps1
     - Google Dorks
 
         Cet outil permet d'effectuer des recherches précises avec la méthode "Google Dorks" 
-        Entrez simplement la requette souhaitée.
+        Entrez simplement la requête souhaitée.
         
         Exemple : inurl:Julien Ropert
 
         Vous trouverez une documentation sur les recherches de type DORK : https://www.funinformatique.com/google-dorks-hackez-requete-google/.
-        Vous trouverez également une serie d'exemple en correlation avec la cybersécuritée.
+        Vous trouverez également une série d'exemple en corrélation avec la cybersécurité.
         <br/><br/>  
         
        ![alt texte](Photo/dork.png).
@@ -339,7 +339,7 @@ Cela retournera toutes les pages sur le site example.com qui ont "admin" dans l'
 
 L’outil est capable d’effectuer diverses opérations comme trouver des sous-domaines, la technologie Web, panneau d’administration, répertoire, entête HTTP, informations WHOIS, balayage de port, balayage TCP/UDP, recherche inverse IP, recherche de sous-réseau, géolocalisation, recherche DNS, tracé, détection de pare-feu, analyse de vulnérabilité et transfert de zone.
 
- -  Utilisation 
+ -  Utilisation 
 
  Saisissez l’adresse cible (par exemple, adresse.com ou IP).
  Choisissez une option dans le menu.
@@ -349,22 +349,22 @@ L’outil est capable d’effectuer diverses opérations comme trouver des sous-
  - 2 Récupération des http header (Récupération d'informations multiples)
  - 3 Découverte des sous-domaines
  - 4 Permet de découvrir quel programme est utilisé pour le service web (IIS, APACHE, NGINX....)
- - 5 Scan le serveur web a la recherche du panneau de configuration administrateur
- - 6 Récuperation des url des dossiers cachés
+ - 5 Scan le serveur web à la recherche du panneau de configuration administrateur
+ - 6 Récupération des url des dossiers cachés
  - 7 Recherche d'informations sur les noms de domaine, les adresses IP et les numéros de système autonome (ASN)
  - 8 Scan de port (nmap)
  - 9 Scan de port (nmap avec arguments tcp only)
  - 10 Scan de port (namp avec arguments UDP only)
- - 11 Recherche de liens de redirection vers l'exterieur
+ - 11 Recherche de liens de redirection vers l'extérieur
  - 12 Récupération du system serveur web et de sa version
  - 13 Récupération du subnet réseau
- - 14 Récupération des sites utilisant le meme serveur web 
+ - 14 Récupération des sites utilisant le même serveur web 
  - 15 Détermine la position du serveur web
  - 16 Récupération d'informations DNS
- - 17 Suivi de la trame de routage pour acceder au site web
- - 18 Detection de parfeu
+ - 17 Suivi de la trame de routage pour accéder au site web
+ - 18 Détection de parfeu
  - 19 Effectuer un scan complet avec l'outil Nikto
- - 20 Detecteur de dns secondaires
+ - 20 Détecteur de dns secondaires
    
 
 ![alt text](Photo/scrap.png).
@@ -396,7 +396,3 @@ L’outil est capable d’effectuer diverses opérations comme trouver des sous-
 
 ## Auteurs
 [@JulienRopert](https://github.com/JulienRopert)
-
-
-
-
