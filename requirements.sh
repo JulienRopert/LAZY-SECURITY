@@ -23,24 +23,6 @@ sudo apt update
 # Mettre à jour les paquets existants
 sudo apt upgrade -y
 
-# Installation de openvas
-sudo apt install openvas
-
-# CORRECTIF OPENVAS, déplaces les lib au bon endroit
-sudo cp /lib64/libopenvas_misc.so /lib
-sudo cp /lib64/libopenvas_misc.so.21 /lib
-sudo cp /lib64/libopenvas_nasl.so /lib
-sudo cp /lib64/libopenvas_nasl.so.21 /lib
-sudo cp /lib64/libopenvas_misc.so.21.4.4 /lib
-sudo cp /lib64/libopenvas_nasl.so.21.4.4 /lib
-
-# Exécuter gvm-setup pour configurer OpenVAS
-sudo gvm-setup
-
-# Mise a jour de la DB CVE
-sudo gvm-feed-update
-
-
 # Ajout des autorisations d'execution des scripts.
 sudo chmod 777 gvm-scan.sh
 sudo chmod 777 Ovas.SH
