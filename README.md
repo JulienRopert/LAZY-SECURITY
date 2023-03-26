@@ -54,6 +54,8 @@ Il n'est pas compatible avec un environnement Windows.
 - requests
 - beautifulsoup4
 - argparse
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Execution
 
@@ -95,10 +97,21 @@ Lancement du script d'installation. ```(Cette partie est a effectuer une seule f
 ```bash
 sudo bash ./requirements.sh 
 ```
-`
 <br/><br/> 
 
-Ajoutes des droits d'ecriture
+Installation de OPENVAS
+
+```bash
+sudo gvm-setup 
+```
+
+```bash
+sudo gvm-feed-update
+```
+
+<br/><br/> 
+
+Ajout des droits d'ecriture
 
 ```bash
 sudo chmod 777 /etc/openvas/openvas_log.conf
@@ -118,6 +131,18 @@ sudo bash ./fix.sh
 ```
 
 <br/><br/>
+
+
+CORRECTIF OPENVAS, déplaces les lib au bon endroit
+```bash
+sudo cp /lib64/libopenvas_misc.so /lib
+sudo cp /lib64/libopenvas_misc.so.21 /lib
+sudo cp /lib64/libopenvas_nasl.so /lib
+sudo cp /lib64/libopenvas_nasl.so.21 /lib
+sudo cp /lib64/libopenvas_misc.so.21.4.4 /lib
+sudo cp /lib64/libopenvas_nasl.so.21.4.4 /lib
+```
+
 
 Demarrage d'openvas et changement du mot de passe par défaut.
 
