@@ -131,9 +131,7 @@ sudo bash ./run.sh
 
 <br/><br/>
 
-``` 
------ Si OPENVAS echoue son lancement ----- 
-```
+``` ----- Si OPENVAS echoue son lancement ----- ```
 
 <br/><br/>
 
